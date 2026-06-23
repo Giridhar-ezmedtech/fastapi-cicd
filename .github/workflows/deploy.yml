@@ -30,7 +30,7 @@ jobs:
             
             # Clone the repository if it doesn't exist, otherwise pull latest changes
             if [ ! -d "fastapi-cicd" ]; then
-              git clone git@github.com:Giridhar-ezmedtech/fastapi-cicd.git fastapi-cicd
+              git clone https://github.com/Giridhar-ezmedtech/fastapi-cicd.git fastapi-cicd
             fi
             cd fastapi-cicd
             git pull origin main
